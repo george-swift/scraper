@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 require_relative '../lib/scrape_farfetch'
+require 'colorize'
 
 designers = Designers.new
 brand = designers.brand_names
