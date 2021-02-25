@@ -13,6 +13,10 @@ class Designers
     product_grid.css('._346238').children.map(&:text).compact
   end
 
+  def description
+    product_grid.css('._d85b45').children.map(&:text).compact
+  end
+
   private
 
   def product_grid
