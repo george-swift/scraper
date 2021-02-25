@@ -26,4 +26,21 @@ describe Designers do
       end
     end
   end
+
+  describe '#price' do
+    let(:block) { proc { |p| p =~ /^[\W\d*]/ }}
+    context 'when method is called on instance' do
+      it 'returns an array of strings' do
+        expect(designer.price).not_to be nil
+      end
+
+      it 'contains stringified prices in dollars' do
+        expect(designer.price.any?(&block)).to be true
+      end
+
+      it 'returns a copy of self with all nil elements removed' do
+        expect(designer.price.include? nil).to be false
+      end
+    end
+  end
 end
