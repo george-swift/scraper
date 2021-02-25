@@ -14,4 +14,16 @@ describe Designers do
       end
     end
   end
+
+  describe '#description' do
+    context 'when method is called on instance' do
+      it 'always returns an array of strings' do
+        expect(designer.description.any?(Integer)).to be false
+      end
+
+      it 'returns an array with all nil elements removed' do
+        expect(designer.description.include? nil).to be false
+      end
+    end
+  end
 end
