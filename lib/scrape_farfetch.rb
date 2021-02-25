@@ -9,6 +9,10 @@ class Designers
     @parse_sneakers = Nokogiri::HTML(url)
   end
 
+  def brand_names
+    product_grid.css('._346238').children.map(&:text).compact
+  end
+
   private
 
   def product_grid
