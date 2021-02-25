@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    httparty (0.13.7)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    json (1.8.6)
+    multi_xml (0.6.0)
+
+PLATFORMS
+  arm64-darwin-20
+
+DEPENDENCIES
+  httparty (~> 0.13.7)
+
+BUNDLED WITH
+   2.2.3
