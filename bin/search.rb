@@ -9,10 +9,10 @@ price = designers.price
 
 (0...30).each do |index|
   puts "\n"
-  puts "- - - Men's Designer Sneakers | Search Results: #{index + 1} - - -"
+  puts "- - - Men's Designer Sneakers | Search Results: #{index + 1} - - -".white
   puts "\n"
-  puts "Brand: #{brand[index]}"
-  puts "Description: #{product[index].capitalize}"
-  puts "Price: #{price[index]}"
+  puts "Brand: #{brand[index]}".green
+  puts "Description: #{product[index].capitalize}".green
+  puts "Price: #{price[index]}".yellow
   puts "\n"
 end
