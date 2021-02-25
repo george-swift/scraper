@@ -17,6 +17,10 @@ class Designers
     product_grid.css('._d85b45').children.map(&:text).compact
   end
 
+  def price
+    product_grid.css('._6356bb').css('span').children.map(&:text).compact
+  end
+
   private
 
   def product_grid
