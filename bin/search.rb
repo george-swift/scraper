@@ -1,10 +1,9 @@
 #!/usr/bin/env ruby
-# rubocop:disable Metrics/BlockLength
 
 require_relative '../lib/scrape_farfetch'
 require 'colorize'
 
-def start_scrape
+def scrape
   designers = Designers.new
   brand = designers.brand_names
   product = designers.description
@@ -27,6 +26,5 @@ def start_scrape
     puts "\n"
   end
 end
-# rubocop:enable Metrics/BlockLength
 
-start_scrape
+scrape
