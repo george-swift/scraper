@@ -3,6 +3,7 @@
 require_relative '../lib/scrape_farfetch'
 require 'colorize'
 
+# rubocop:disable Metrics/MethodLength
 def scrape
   designers = Designers.new
   brand = designers.brand_names
@@ -26,5 +27,6 @@ def scrape
     puts "\n"
   end
 end
+# rubocop:enable Metrics/MethodLength
 
 scrape
