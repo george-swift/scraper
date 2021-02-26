@@ -27,6 +27,6 @@ def start_scrape
     puts "\n"
   end
 end
-# rubocop:disable Metrics/BlockLength
+# rubocop:enable Metrics/BlockLength
 
 start_scrape
