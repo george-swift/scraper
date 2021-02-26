@@ -4,7 +4,7 @@
 
 > The scraper is developed in Ruby and uses the Nokogiri gem to collect men's designer sneakers, details, and/or season information, and prices from my favorite online retail platform - [Farfetch](https://www.farfetch.com/ng/shopping/men/trainers-2/items.aspx)
 
-![screenshot](./)
+![screenshot](./screenshots/search.png)
 
 ## Built With
 
@@ -29,6 +29,8 @@
 - Execute `rspec --format doc` to run all the test cases  OR
 - Run `bundle install` to install the required gems
 - Execute `bundle exec rspec` to run all the test cases
+
+![screenshot](./screenshots/tests.png)
 
 👤 **Author**
 
