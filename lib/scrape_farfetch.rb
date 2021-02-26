@@ -1,6 +1,9 @@
+# frozen_string_literal: true
+
 require 'httparty'
 require 'nokogiri'
 
+# :nodoc:
 class Designers
   attr_accessor :parse_sneakers
 
