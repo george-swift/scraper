@@ -10,7 +10,7 @@ describe Designers do
       end
 
       it 'returns a copy of self with all nil elements removed' do
-        expect(designer.brand_names.include? nil).to be false
+        expect(designer.brand_names.include?(nil)).to be false
       end
     end
   end
@@ -22,13 +22,13 @@ describe Designers do
       end
 
       it 'returns an array with all nil elements removed' do
-        expect(designer.description.include? nil).to be false
+        expect(designer.description.include?(nil)).to be false
       end
     end
   end
 
   describe '#price' do
-    let(:block) { proc { |p| p =~ /^[\W\d*]/ }}
+    let(:block) { proc { |p| p =~ /^[\W\d*]/ } }
     context 'when method is called on instance' do
       it 'returns an array of strings' do
         expect(designer.price).not_to be nil
@@ -39,7 +39,7 @@ describe Designers do
       end
 
       it 'returns a copy of self with all nil elements removed' do
-        expect(designer.price.include? nil).to be false
+        expect(designer.price.include?(nil)).to be false
       end
     end
   end
