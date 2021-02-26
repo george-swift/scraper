@@ -15,19 +15,18 @@
 - Open your terminal - Windows: `Win + R`, then type `cmd` | Mac: `Command + space`, then type `Terminal`
 - Navigate to a directory of your choosing using the `cd` command
 - Run this command in your OS terminal: `git clone https://github.com/george-swift/scraper.git` to get a copy of the project.
-- Change to this directory using the `cd` command.
+- Navigate to the project's directory using the `cd` command.
 - Execute `./bin/search.rb` or `cd bin` from the project's root folder and `ruby search.rb`
 
 ### Prerequisites
 
 * Internet connection
 * Ruby installed in your OS
-* The Nokogiri ruby gem installed in your OS. To install, simply type `gem install nokogiri` in the terminal
+* The Nokogiri ruby gem installed in your OS. To install, simply type `gem install nokogiri` in the terminal or `bundle install` from the project directory.
 
 ## Testing
 - Open the terminal on the project root folder
-- Execute `rspec --format doc` to run all the test cases
-Or
+- Execute `rspec --format doc` to run all the test cases  OR
 - Run `bundle install` to install the required gems
 - Execute `bundle exec rspec` to run all the test cases
 
@@ -46,7 +45,7 @@ Kindly give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to the following:
+Hat tip to the following:
   - Farfetch for catalog of products
   - Nokogiri documentation for guidelines on installation
   - `Rubygems.org` documentation for guidelines on gems installation
