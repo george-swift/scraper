@@ -23,6 +23,7 @@
 * Internet connection
 * Ruby installed in your OS
 * The Nokogiri ruby gem installed in your OS. To install, simply type `gem install nokogiri` in the terminal or `bundle install` from the project directory.
+* The HTTParty ruby library installed in your OS. To install this gem type `bundle install` in the terminal from the project directory.
 
 ## Testing
 - Open the terminal on the project root folder
