@@ -1,5 +1,5 @@
 require 'httparty'
-require 'Nokogiri'
+require 'nokogiri'
 
 class Designers
   attr_accessor :parse_sneakers
