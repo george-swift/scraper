@@ -1,3 +1,4 @@
+#rubocop:disable Metrics/BlockLength
 require_relative '../lib/scrape_farfetch'
 
 describe Designers do
@@ -44,3 +45,5 @@ describe Designers do
     end
   end
 end
+#rubocop:enable Metrics/BlockLength
+
