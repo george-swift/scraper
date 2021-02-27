@@ -9,7 +9,7 @@ product = designers.description
 price = designers.price
 puts "\nHello, window shopper! 👋🏽 I am Jarvis \n\n"
 sleep(1)
-puts "How many collections do you want to check out today? \n"
+puts 'How many collections do you want to check out today?'
 puts "⚠️  You can only say in numbers \n".red
 collections = gets.chomp.to_i
 (0...collections).each do |index|
@@ -18,3 +18,4 @@ collections = gets.chomp.to_i
   puts "Description: #{product[index].capitalize}".green
   puts "Price: #{price[index]}\n".yellow
 end
+puts "Happy window shopping! 🛒 \n\n".blue
